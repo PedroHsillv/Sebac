@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #111;
+    color: #FFF;
+    text-align: center;
+}
+
+header {
+    background-color: #222;
+    box-shadow: 0px 3px 10px #000000;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #fff;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.login-button button {
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+.button-anima:hover {
+    background-color: transparent;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+    .nav-item {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    margin-top: 3%;
+    height: 100vh;
+}
+
+.elemento{
+    margin: 20px;
+    position: relative;
+    margin-top: 50px;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    padding: 25px;
+    background-color: #3f3f3f;
+    border-radius: 5px;
+    text-align:justify;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
+    position: relative;
+    overflow: hidden;
+
+}
+
+.gpt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    padding: 25px;
+    background-color: #3f3f3f;
+    border-radius: 5px;
+    text-align: justify;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px rgba(228, 187, 4, 0.389); /* Aplicar sombra apenas ao elemento com a classe .gpt */
+}
+
+.card span:first-of-type{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, transparent, rgb(221, 199, 0));
+    animation: animar1 2s linear infinite;
+}
+
+.card span:nth-of-type(2){
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, rgb(221, 199, 0));
+    animation: animar2 2s linear infinite;
+    animation-delay: 1s;
+    
+}
+
+.elemento span:nth-of-type(3){
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to left, transparent, rgb(221, 199, 0));
+    animation: animar3 2s linear infinite;
+
+}
+
+.elemento span:nth-of-type(4){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to top, transparent, rgb(221, 199, 0));
+    animation: animar4 2s linear infinite;
+    animation-delay: 1s;
+    
+}
+
+@keyframes animar1{
+    0% {
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+
+@keyframes animar2{
+    0% {
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(100%);
+    }
+}
+
+@keyframes animar3{
+    0% {
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes animar4{
+    0% {
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(-100%);
+    }
+}
+
+.card:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 20px solid transparent;
+    border-top: 20px solid #000000;
+    border-right: 20px solid #000000;
+}
+
+.weapons{
+    margin-bottom: 1%;
+}
+
+.weapons img{
+    width: 250px;
+}
+
+.content{
+    height: 215px;
+    overflow: hidden;
+    position: relative;
+}
+
+.content:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(transparent, #3f3f3f);
+}   
+ 
+.content h3{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 30px;
+    position: relative;
+}
+
+.content h3:before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 40px;
+    background-color: #000000;
+    bottom: 4px;
+    border-radius: 100px
+}
+
+.content p{
+    color: #b7b7b7;
+}
+
+#read_button {
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 15px;
+    background-color: #000000;
+    color: #b7b7b7;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+#read_button:hover {
+    background-color: transparent;
+    color: #000000;
+    transition: all 0.2s ease-in-out;
+}
+
+.card.active .content{
+    height: auto;
+}
+
+.card.active .content:before{
+    visibility: hidden;
+}
+
+footer {
+    margin-top: 2%;
+    background-color: #222; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 1%; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    font-size: 15px; /* Tamanho da fonte */
+    width: 100%;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/Sebac2.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Sebac</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="https://www.sp.senac.br">
+                    <img src="assets/img/Sebac2.png" alt="Logo">
+                </a>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="personagens.html" class="nav-link">Personagens</a></li>
+                    <li class="nav-item"><a href="armas.html" class="nav-link">Itens</a></li>
+                    <li class="nav-item"><a href="mapa.html" class="nav-link">Mapa</a></li>
+                    <li class="nav-item"><a href="integrantes.html" class="nav-link">Integrantes</a></li>
+                    <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
+                </ul>
+            </div>
+
+            <div class="login-button">
+                <button class="button-anima"><a href="login.php">Login</a></button>
+                <button class="button-anima"><a href="cadastro.php">Registrar</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp (1).svg"></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="personagens.html" class="nav-link">Personagens</a></li>
+                <li class="nav-item"><a href="armas.html" class="nav-link">Itens</a></li>
+                <li class="nav-item"><a href="mapa.html" class="nav-link">Mapa</a></li>
+                <li class="nav-item"><a href="integrantes.html" class="nav-link">Integrantes</a></li>
+                <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="#">Login</a></button>
+                <button><a href="cadastro.php">Registrar</a></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="textbox">
+                <h2>Bem-vindo ao mundo misterioso e desafiador de "Sebac".</h4> 
+                    <br></br>Este é um jogo text-based que mergulha os jogadores em uma aventura única, onde cada escolha tem consequências significativas. 
+                    Em "Sebac", você assume o papel de um explorador destemido que se aventura em uma terra desconhecida, repleta de segredos antigos, criaturas 
+                    intrigantes e mistérios profundos.</h4>
+            </div>
+
+            <div class="textbox">
+                <div class="lore">
+                    <h2>"As Crônicas da Dungeon Sebac"</h2>
+                    <p id="loreText" class="loreText">
+                        Há muito tempo, no mundo de Sebac, a paz e a prosperidade reinavam...
+                    </p>
+                    <button id="meuBotao">Mostrar Mais</button>
+                </div>
+            </div>
+            <div class="textbox">
+                <p>Pronto para a jornada? <br> Registre-se ou faça login para jogar</p>
+            </div>
+          
+        </div>
+    </main>
+    <script src="assets/scriptsJS/script.js"></script>
+    <script src="assets/scriptsJS/script2.js"></script>
+    <footer>
+        <div class="footer">
+            <p>&copy; 2023 Sebac. Todos os direitos reservados.</p>
+        </div>
+        </footer>
+</body>
+</html>

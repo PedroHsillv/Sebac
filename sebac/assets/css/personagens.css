@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #111;
+    color: #FFF;
+    text-align: center;
+}
+
+header {
+    background-color: #222;
+    box-shadow: 0px 3px 10px #000000;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #fff;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.login-button button {
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+.button-anima:hover {
+    background-color: transparent;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+    .nav-item {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+}
+
+.gurizada img{
+    margin-top: 5%;
+    width: 300px;
+    height: 300px;
+}
+
+.elemento{
+    position: relative;
+    margin: 10px;
+    margin-top: 50px;
+    display: inline-block;
+    background-color: #3f3f3f3f;
+    border-radius: 5px;
+    width: 400px;
+    height: 550px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(175, 172, 12, 0.389);
+    overflow: hidden;
+}
+
+#boss{
+    box-shadow: 10px 10px 10px rgba(170, 10, 10, 0.389);
+
+}
+
+@keyframes animar1{
+    0% {
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+
+.elemento span:first-of-type{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, transparent, rgb(202, 167, 9));
+    animation: animar1 2s linear infinite;
+}
+
+.elemento span:nth-of-type(2){
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, rgb(202, 167, 9));
+    animation: animar2 2s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes animar2{
+    0% {
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(100%);
+    }
+}
+
+.elemento span:nth-of-type(3){
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to left, transparent, rgb(202, 167, 9));
+    animation: animar3 2s linear infinite;
+}
+
+@keyframes animar3{
+    0% {
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+.elemento span:nth-of-type(4){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to top, transparent, rgb(202, 167, 9));
+    animation: animar4 2s linear infinite;
+    animation-delay: 1s;
+}
+
+#boss{
+    background: linear-gradient(to top, transparent, rgba(138, 2, 2, 0.411));
+}
+
+#boss span:first-of-type{
+    background: linear-gradient(to top, transparent, rgb(255, 0, 0));
+}
+
+#boss span:nth-of-type(2){
+    background: linear-gradient(to top, transparent, rgb(255, 0, 0));
+}
+
+#boss span:nth-of-type(3){
+    background: linear-gradient(to top, transparent, rgb(255, 0, 0));
+}
+
+#boss span:nth-of-type(4){
+    background: linear-gradient(to top, transparent, rgb(255, 0, 0));
+}
+
+@keyframes animar4{
+    0% {
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(-100%);
+    }
+}
+  
+.elemento p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.elemento h1{
+    margin-top: 10px;
+}
+
+.guris img{
+    margin-top: 2%;
+}
+
+.titlemobs{
+    height: 130px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    background-color: #222;
+    box-shadow: 10px 10px 10px rgba(13, 153, 8, 0.389);
+}
+
+.titlemobs img{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+    
+.guris{
+    height: 130px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 2%;
+    background-color: #222;
+    box-shadow: 10px 10px 10px rgba(153, 8, 8, 0.389);
+}
+
+.guris img{
+    max-width: 100%;
+    height: auto;
+}
+
+.garela img{
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+}
+
+.recompensa img{
+    margin-top: 10%;
+    width: 400px;
+}
+
+.reward img{
+    margin-top: 10%;
+    height: 40px;
+    width: 400px;
+}
+
+#giba{
+    margin-top: 9%;
+}
+
+footer {
+    margin-top: 2%;
+    background-color: #222; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 1%; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    font-size: 15px; /* Tamanho da fonte */
+    width: 98%;
+}
+
+.mobs{
+    position: relative;
+    margin: 10px;
+    margin-top: 50px;
+    display: inline-block;
+    background-color: #3f3f3f3f;
+    border-radius: 50px;
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
+    overflow: hidden;
+}
+
+.mobs p{
+    margin-top: 3%;
+    font-size: 15px;
+}

@@ -1,0 +1,38 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#contador {
+    font-size: 48px;
+    color: #ff4500; /* Cor laranja para o número de acessos */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 0 0 20px 0 rgba(151, 149, 149, 0.5);
+}
+
+.container h1{
+    color: red;
+}
+
+.container p {
+    font-size: 20px;
+    text-align: center; /* Centraliza o texto */
+    white-space: pre-line; /* Quebra de linha automática */
+}
