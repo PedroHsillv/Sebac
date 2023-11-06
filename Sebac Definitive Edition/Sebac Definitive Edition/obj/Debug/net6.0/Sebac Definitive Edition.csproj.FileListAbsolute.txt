@@ -1,0 +1,15 @@
+C:\Users\joao.psferreira21\OneDrive - SENAC - SP\Sebac\Sebac Definitive Edition\Sebac Definitive Edition\bin\Debug\net6.0\Sebac Definitive Edition.exe
+C:\Users\joao.psferreira21\OneDrive - SENAC - SP\Sebac\Sebac Definitive Edition\Sebac Definitive Edition\bin\Debug\net6.0\Sebac Definitive Edition.deps.json
+C:\Users\joao.psferreira21\OneDrive - SENAC - SP\Sebac\Sebac Definitive Edition\Sebac Definitive Edition\bin\Debug\net6.0\Sebac Definitive Edition.runtimeconfig.json
+C:\Users\joao.psferreira21\OneDrive - SENAC - SP\Sebac\Sebac Definitive Edition\Sebac Definitive Edition\bin\Debug\net6.0\Sebac Definitive Edition.dll
+C:\Users\joao.psferreira21\OneDrive - SENAC - SP\Sebac\Sebac Definitive Edition\Sebac Definitive Edition\bin\Debug\net6.0\Sebac Definitive Edition.pdb
+C:\Users\joao.psferreira21\OneDrive - SENAC - SP\Sebac\Sebac Definitive Edition\Sebac Definitive Edition\obj\Debug\net6.0\Sebac Definitive Edition.csproj.AssemblyReference.cache
+C:\Users\joao.psferreira21\OneDrive - SENAC - SP\Sebac\Sebac Definitive Edition\Sebac Definitive Edition\obj\Debug\net6.0\Sebac Definitive Edition.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joao.psferreira21\OneDrive - SENAC - SP\Sebac\Sebac Definitive Edition\Sebac Definitive Edition\obj\Debug\net6.0\Sebac Definitive Edition.AssemblyInfoInputs.cache
+C:\Users\joao.psferreira21\OneDrive - SENAC - SP\Sebac\Sebac Definitive Edition\Sebac Definitive Edition\obj\Debug\net6.0\Sebac Definitive Edition.AssemblyInfo.cs
+C:\Users\joao.psferreira21\OneDrive - SENAC - SP\Sebac\Sebac Definitive Edition\Sebac Definitive Edition\obj\Debug\net6.0\Sebac Definitive Edition.csproj.CoreCompileInputs.cache
+C:\Users\joao.psferreira21\OneDrive - SENAC - SP\Sebac\Sebac Definitive Edition\Sebac Definitive Edition\obj\Debug\net6.0\Sebac Definitive Edition.dll
+C:\Users\joao.psferreira21\OneDrive - SENAC - SP\Sebac\Sebac Definitive Edition\Sebac Definitive Edition\obj\Debug\net6.0\refint\Sebac Definitive Edition.dll
+C:\Users\joao.psferreira21\OneDrive - SENAC - SP\Sebac\Sebac Definitive Edition\Sebac Definitive Edition\obj\Debug\net6.0\Sebac Definitive Edition.pdb
+C:\Users\joao.psferreira21\OneDrive - SENAC - SP\Sebac\Sebac Definitive Edition\Sebac Definitive Edition\obj\Debug\net6.0\Sebac Definitive Edition.genruntimeconfig.cache
+C:\Users\joao.psferreira21\OneDrive - SENAC - SP\Sebac\Sebac Definitive Edition\Sebac Definitive Edition\obj\Debug\net6.0\ref\Sebac Definitive Edition.dll

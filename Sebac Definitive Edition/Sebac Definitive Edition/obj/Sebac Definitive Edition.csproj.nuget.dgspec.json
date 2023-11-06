@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\sadpi\\OneDrive - SENAC - SP\\Sebac\\Sebac Definitive Edition\\Sebac Definitive Edition\\Sebac Definitive Edition.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\sadpi\\OneDrive - SENAC - SP\\Sebac\\Sebac Definitive Edition\\Sebac Definitive Edition\\Sebac Definitive Edition.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sadpi\\OneDrive - SENAC - SP\\Sebac\\Sebac Definitive Edition\\Sebac Definitive Edition\\Sebac Definitive Edition.csproj",
+        "projectName": "Sebac Definitive Edition",
+        "projectPath": "C:\\Users\\sadpi\\OneDrive - SENAC - SP\\Sebac\\Sebac Definitive Edition\\Sebac Definitive Edition\\Sebac Definitive Edition.csproj",
+        "packagesPath": "C:\\Users\\sadpi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sadpi\\OneDrive - SENAC - SP\\Sebac\\Sebac Definitive Edition\\Sebac Definitive Edition\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sadpi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
