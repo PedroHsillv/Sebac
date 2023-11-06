@@ -120,6 +120,18 @@ header {
     .open {
         display: block;
     }
+    footer {
+        margin-top: 2%;
+        background-color: #222; /* Cor de fundo */
+        color: #fff; /* Cor do texto */
+        padding: 1%; /* Espaçamento interno */
+        text-align: center; /* Alinhamento do texto */
+        font-size: 15px; /* Tamanho da fonte */
+        width: 98%;
+        position: fixed; 
+        bottom: 0; 
+       
+    }
 }
 
 .map img{
@@ -145,4 +157,7 @@ footer {
     text-align: center; /* Alinhamento do texto */
     font-size: 15px; /* Tamanho da fonte */
     width: 98%;
+   
 }
+
+

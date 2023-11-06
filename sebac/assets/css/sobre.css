@@ -138,21 +138,23 @@ header {
 }
 
 .container {
+    
     margin-top: 20px;
     padding: 20px;
     border-radius: 5px;
     max-width: 55%;
-    height: 300px;
-    margin-left: 60px;
+    height: auto;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
     overflow: hidden;
     background-color: #222;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
-
 }
 
 .container img {
-    width: 200px;
-    height: 283px;
+    width: 250px;
+    height: 354px;
     border-radius: 5px;
     margin-right: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.389);
@@ -163,6 +165,7 @@ header {
     align-items: center;
     color: #FFF;
     max-width: 50rem; /* Largura fixa do contêiner de texto */
+    padding: 20px; /* Adicione algum espaçamento interno ao texto, se necessário */
 }
 
 
@@ -184,11 +187,18 @@ footer {
         padding: 30px;
     }
     .container{
-        max-width: 50%;
+        max-width: 60%;
     }
     .container{
         height: auto;
     }
+    .container{
+        margin-right: 12%;
+        margin-left: 13%;
+    }.container img {
+        margin-left: -5%;
+    }
+
     .texto-estilizado{
         display: flex;
         align-items: center;
